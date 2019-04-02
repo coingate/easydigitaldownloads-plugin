@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Plugin Name:     Accept Bitcoin and 50+ Cryptocurrencies with CoinGate
+ * Plugin URI:      https://
+ * Description:     Accept Bitcoin, Litecoin, Ethereum and other coins hassle-free - and receive settlements in Bitcoin or in Euros to your bank
+ * Version:         1.0.0
+ * Author:          CoinGate
+ * Author URI:      https://coingate.com
+**/
+
 namespace CoinGateGate;
 
 ///Exit if accessed directly
