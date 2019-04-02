@@ -156,8 +156,8 @@ final class EDD_CoinGate_Payments
                 'type' => 'select',
                 'options' => array(
                     'BTC' => __('Bitcoin (฿)', 'easy-digital-downloads'),
-                    'USDT' => __('USDT (�~B�)', 'easy-digital-downloads'),
-                    'EUR' => __('Euros (�~B�)', 'easy-digital-downloads'),
+                    'USDT' => __('USDT (₮)', 'easy-digital-downloads'),
+                    'EUR' => __('Euros (€)', 'easy-digital-downloads'),
                     'USD' => __('U.S. Dollars ($)', 'easy-digital-downloads'),
                     'DO_NOT_CONVERT' => __('Do not convert', 'easy-digital-downloads')
                 ),
