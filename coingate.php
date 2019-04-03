@@ -1,13 +1,6 @@
 <?php
 
-/**
- * Plugin Name:     Accept Bitcoin and 50+ Cryptocurrencies with CoinGate
- * Plugin URI:      https://
- * Description:     Accept Bitcoin, Litecoin, Ethereum and other coins hassle-free - and receive settlements in Bitcoin or in Euros to your bank
- * Version:         1.0.0
- * Author:          CoinGate
- * Author URI:      https://coingate.com
-**/
+
 
 namespace CoinGateGate;
 
@@ -33,7 +26,7 @@ final class EDD_CoinGate_Payments
             return;
         }
 
-        $this->config();
+        //$this->config();
         $this->includes();
         $this->filters();
         $this->actions();
@@ -55,26 +48,18 @@ final class EDD_CoinGate_Payments
         add_filter('edd_payment_gateways', array($this, 'register_gateway'), 1, 1);
     }
 
-    private function config()
-    {
-        if (!defined('EDD_COINGATE_CLASS_DIR')) {
-            $path = trailingslashit(plugin_dir_path(EDD_PLUGIN_FILE)) . 'includes/gateways/libs/coingate';
-            define('EDD_COINGATE_CLASS_DIR', trailingslashit($path));
-        }
-    }
 
     // Include the CoinGate SDK
     private function includes()
     {
-        require_once EDD_COINGATE_CLASS_DIR . 'vendor/autoload.php';
+        require_once __DIR__. '/libs/coingate/vendor/autoload.php';
     }
 
 
     private function filters()
     {
         add_filter('edd_accepted_payment_icons', array($this, 'register_payment_icon'), 10, 1);
-        add_filter('edd_show_gateways', array($this, 'maybe_hide_gateway_select'));
-
+        
         if (is_admin()) {
             add_filter('edd_settings_sections_gateways', array($this, 'register_gateway_section'), 1, 1);
             add_filter('edd_settings_gateways', array($this, 'register_gateway_settings'), 1, 1);
