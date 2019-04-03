@@ -1,6 +1,16 @@
 <?php
 
-
+/**
+ * Plugin Name:     Easy Digital Downloads Payment Gateway - CoinGate
+ * Plugin URI:      https://coingate.com
+ * Description:     Accept Bitcoin, Litecoin, Ethereum and other coins hassle-free - and receive settlements in Bitcoin or in Euros to your bank
+ * Version:         1.0.0
+ * Author:          CoinGate
+ * Author URI:      https://coingate.com
+ * License: MIT License
+ * License URI: https://github.com/coingate/easy-digital-downloads/blob/master/LICENSE
+ * Github Plugin URI: https://github.com/coingate/easy-digital-downloads
+ **/
 
 namespace CoinGateGate;
 
