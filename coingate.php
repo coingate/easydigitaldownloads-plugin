@@ -62,7 +62,7 @@ final class EDD_CoinGate_Payments
     // Include the CoinGate SDK
     private function includes()
     {
-        require_once __DIR__. '/libs/coingate/vendor/autoload.php';
+        require_once __DIR__. '/lib/coingate/vendor/autoload.php';
     }
 
 
@@ -121,7 +121,7 @@ final class EDD_CoinGate_Payments
 
     public function register_payment_icon($payment_icons)
     {
-        $payment_icons[plugins_url('libs/coingate/bitcoin.png', __FILE__)] = "CoinGate";
+        $payment_icons[plugins_url('lib/coingate/bitcoin.png', __FILE__)] = "CoinGate";
 
         return $payment_icons;
     }
