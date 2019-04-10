@@ -2,7 +2,7 @@
 
 Accept Bitcoin and 50+ Cryptocurrencies on your Easy Digital Downloads store.
 
-Read the plugin installation instructions below to get started with CoinGate Cryptocurrency payment gateway on your shop. Accept Bitcoin, Litecoin, Ethereum and other coins hassle-free - and receive settlements in Bitcoin or in Euros to your bank.
+Read the plugin installation instructions below to get started with CoinGate Cryptocurrency payment gateway on your shop. Accept Bitcoin, Litecoin, Ethereum and other coins hassle-free - and receive settlements in Cryptocurrencies or in Euros or USD to your bank.
 
 
 ## Install
@@ -13,12 +13,12 @@ Create your API credentials in your CoinGate Dashboard (https://support.coingate
  
 Please take note, that for "Test" mode you **must** generate separate API credentials on <https://sandbox.coingate.com>. API credentials generated on <https://coingate.com> will **not** work for "Test" mode.
 
-Also note, that *Receive Currency* parameter in your module configuration window defines the currency of your settlements from CoinGate. Set it to BTC, USDT, EUR, USD or *Do not convert*, depending on how you wish to receive payouts. To receive settlements in **Euros** or **U.S. Dollars** to your bank, you have to verify as a merchant on CoinGate (login to your CoinGate account and click *Verification*). If you set your receive currency to **Bitcoin** or **USDT**, verification is not needed.
+Also note, that *Receive Currency* parameter in your module configuration window defines the currency of your settlements from CoinGate. Set it to *BTC*, *USDT*, *EUR*, *USD* or *Do not convert*, depending on how you wish to receive payouts. To receive settlements in **Euros** or **U.S. Dollars** to your bank, you have to verify as a merchant on CoinGate (login to your CoinGate account and click *Verification*). If you set your receive currency to **Bitcoin** or **USDT**, verification is not needed.
 
 
-### via WooCommerce FTP Uploader
+### via WordPress FTP Uploader
 
-1. Download [edd-coingate-payments-1.0.0.zip](https://github.com/coingate/easy-digital-downloads/releases/download/v1.0.0/edd-coingate-payments-1.0.0.zip).
+1. Download [edd-coingate-payments-1.0.0.zip](https://github.com/coingate/easydigitaldownloads-plugin/releases/download/v1.0.0/edd-coingate-payments-1.0.0.zip).
 
 2. Go to *Admin » Plugins » Add New* in admin panel.
 
@@ -32,7 +32,7 @@ Also note, that *Receive Currency* parameter in your module configuration window
 
 ### via FTP
 
-1. Download [edd-coingate-payments-1.0.0.zip](https://github.com/coingate/easy-digital-downloads/releases/download/v1.0.0/edd-coingate-payments-1.0.0.zip).
+1. Download [edd-coingate-payments-1.0.0.zip](https://github.com/coingate/easydigitaldownloads-plugin/releases/download/v1.0.0/edd-coingate-payments-1.0.0.zip).
 
 2. Unzip and upload **edd-coingate-payments/** directory to **/wp-content/plugins/** through FTP.
 
